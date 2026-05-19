@@ -253,65 +253,14 @@ In Open-WebUI:
 
 ---
 
-## Lab C - VS Code Integration (BONUS)
+## Advanced experiments (consult with your favorite LLM :-) )
 
-### Objective
+* Vibe coding >> connect vscode with continue.dev extension
+* RAG with (work with own documents)
+* Alternative to Ollama >> https://lmstudio.ai/
+* AI agents + MCP (goose, openClaw)
+* Picture analysis (Gemma4 or LLaVa)
 
-Connect local Ollama as an AI assistant directly into VS Code.
-
-### Exercise 1 - Continue.dev
-
-#### Step 1: Download a Specialized Coding Model
-
-```bash
-ollama pull qwen2.5-coder:7b
-```
-
-#### Step 2: Install Continue.dev
-
-- Open VS Code
-- Extensions (Ctrl+Shift+X)
-- Search for "Continue" and install
-
-#### Step 3: Configuration
-
-Open the config file (`~/.continue/config.json`) and add:
-
-```json
-{
-  "models": [
-    {
-      "title": "Qwen Coder",
-      "provider": "ollama",
-      "model": "qwen2.5-coder:7b",
-      "apiBase": "http://localhost:11434"
-    }
-  ],
-  "tabAutocompleteModel": {
-    "title": "Qwen Coder",
-    "provider": "ollama",
-    "model": "qwen2.5-coder:7b",
-    "apiBase": "http://localhost:11434"
-  }
-}
-```
-
-#### Step 4: Usage
-
-- `Ctrl/Cmd + L` - opens chat panel
-- `Ctrl/Cmd + I` - inline edit
-- Tab autocomplete works automatically
-
-### Exercise 2 - Cline (Agentic Coding)
-
-For advanced use, install the "Cline" extension:
-
-- Can read and edit files
-- Executes terminal commands
-- Creates new files autonomously
-- Similar to Claude Code, but with a local model
-
----
 
 ## Model Comparison
 
@@ -332,12 +281,7 @@ Use this table to select a suitable model based on your hardware:
 
 ### Ollama Is Not Running
 
-```bash
-sudo systemctl status ollama
-sudo systemctl restart ollama
-```
-
-Or manually:
+Start manually:
 
 ```bash
 ollama serve
@@ -354,11 +298,6 @@ ollama serve
 - Use a smaller model or quantized version (q4, q5)
 - Restart Ollama: `ollama serve`
 
-### Open-WebUI Does Not See Models
-
-- Check the Ollama API URL in Open-WebUI Settings
-- It should be `http://localhost:11434` or the proxy URL
-
 ---
 
 ## Useful Links
@@ -366,8 +305,7 @@ ollama serve
 - Ollama documentation: https://ollama.com/docs
 - Open-WebUI documentation: https://docs.openwebui.com/
 - Continue.dev: https://docs.continue.dev/
-- Qwen models: https://ollama.com/library/qwen2.5-coder
-- Llama models: https://ollama.com/library/llama3.1
+- Ollama library: https://ollama.com/library/r
 
 ---
 
