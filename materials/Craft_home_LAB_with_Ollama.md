@@ -11,7 +11,7 @@ This lab will guide you through the installation and use of local LLM models wit
 Each student has their own set of two PODs accessible via URL to web terminal - just change XX to your student number (for example '07'). No password rquired. CPU-xx for Lab A and gpu-xx for Labs B,C,... The URL's are here for example
 
 ```
-https://www.github.com/petrhanakcz/ollamalab/studentfiles/student-01.txt
+https://www.github.com/petrhanakcz/ollamalab/StudentFiles/student-01.md
 ```
 
 ### Work on your Laptop/VM
