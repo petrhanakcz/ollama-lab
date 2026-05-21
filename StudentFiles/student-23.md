@@ -2,7 +2,7 @@
 
 ## Lab A - cpu only
 
-Web terminal:
+Web terminal: https://zjz7atw8m7rfda-19123.proxy.runpod.net/hkli5xrb33hfnaxywj56ass5vzbkuyf3/
 
 ---
 
