@@ -256,6 +256,7 @@ In Open-WebUI:
 ## Advanced experiments (consult with your favorite LLM :-) )
 
 * Vibe coding >> connect vscode with continue.dev extension
+* Modify existing model with Modelfile
 * RAG with (work with own documents)
 * Alternative to Ollama >> https://lmstudio.ai/
 * AI agents + MCP (goose, openClaw)
