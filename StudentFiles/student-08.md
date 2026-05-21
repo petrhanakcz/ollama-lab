@@ -8,7 +8,7 @@ Web terminal: https://aifzqt7ezhval2-19123.proxy.runpod.net/rdf14y0r0mjbt2vmyg97
 
 ## Lab B - gpu
 
-Web terminal: https://j599x1k2vwik03-19123.proxy.runpod.net/15mojzzx20ar3kvsa445bplbcah4vi51/
+Web terminal: https://j599x1k2vwik03-19123.proxy.runpod.net/z2mx6kg6sbdywo4hxeatcx7bdrt9d13o/
 
 Open-WebUI: https://j599x1k2vwik03-8080.proxy.runpod.net/
 
